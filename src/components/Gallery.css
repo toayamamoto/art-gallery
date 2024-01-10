@@ -1,0 +1,25 @@
+.image-gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-with-comment {
+  width: calc(50% - 7%);
+  margin-bottom: 1%;
+  margin-right: 1%; 
+}
+
+textarea {
+  width: calc(100% - 16px);
+  box-sizing: border-box;
+}
